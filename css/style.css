@@ -15,6 +15,10 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 40vh;
+}
+
 ul {
   list-style: none;
 }
@@ -122,7 +126,7 @@ img {
 .hero.blog {
   background: url("../images/blog/fabio-oyXis2kALVg-unsplash.jpg") no-repeat
     center center/cover;
-  height: 30vh;
+  height: 40vh;
 }
 
 /* Icons */
@@ -213,7 +217,7 @@ img {
   justify-content: center;
   text-align: center;
   height: 200px;
-  /* flex-shrink: 0; */
+  flex-shrink: 0;
 }
 
 .footer a {
@@ -226,11 +230,6 @@ img {
 
 .footer .social > * {
   margin-right: 30px;
-}
-
-main {
-  /* flex: 1 0 auto; */
-  /* padding: 20px; */
 }
 
 /* Mobile */
