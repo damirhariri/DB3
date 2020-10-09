@@ -85,6 +85,11 @@ img {
   width: 20px;
 }
 
+#flag_mobile_no,
+#flag_mobile_en {
+  display: none;
+}
+
 /* Header */
 .hero {
   background: url("../images/home/sean-pollock-PhYq704ffdA-unsplash.jpg")
@@ -268,5 +273,17 @@ img {
 @media (max-width: 500px) {
   .navbar nav {
     display: none;
+  }
+  .logo {
+    text-align: center;
+  }
+
+  #flag_mobile_no,
+  #flag_mobile_en {
+    display: inline;
+  }
+  #flag_mobile_no img,
+  #flag_mobile_en img {
+    width: 20px;
   }
 }
