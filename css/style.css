@@ -80,6 +80,11 @@ img {
   font-weight: 400;
 }
 
+#flag_no,
+#flag_en {
+  width: 20px;
+}
+
 /* Header */
 .hero {
   background: url("../images/home/sean-pollock-PhYq704ffdA-unsplash.jpg")
